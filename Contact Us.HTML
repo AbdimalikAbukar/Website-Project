@@ -2,13 +2,16 @@
 
 <head>
     <title>Abukarra Photography</title>
+    <link rel="stylesheet" href="HeadnNav.css">
+    <link rel="stylesheet" href="ContactUs.css">
+    <link rel="stylesheet" href="ContactUs.js">
 </head>
 
-<body style="background-color: rgb(217, 254, 254);">
+<body >
     <div id="wrapper">
         <div>
             <header>
-                <h1 style="background-color: azure;">
+                <h1>
                     Abukarra Photography
                 </h1>
             </header>
@@ -27,20 +30,20 @@
         <br><br><br>
 
         <header>
-            <h2 style="background-color: azure;">Contact Us</h2>
+            <h2 >Contact Us</h2>
         </header>
 
-        <p>
-        <h3>
+        <p class="p1">
+        
             Your opinions and questions are very valuable to us. We appreciate your inquiries, criticisms, and
             suggestions for cooperation. We're available to listen, whether you want to talk about your unique needs,
             schedule a photo shoot, or just want to express yourself. Please use the attached contact form to get in
             touch with us, and we will get back to you right away. We're excited to talk to you and see what
             opportunities there are for working together to create stunning photos.
-        </h3>
+       
         </p>
 
-        <p><strong>
+        <p class="p1">
                 Some of our Contact Information is...
                 <br><br>
                 1554 Bloor W
@@ -54,21 +57,22 @@
                 You Could also fill out our Customer Information section below, and we'll get back to you as soon as
                 possible
 
-            </strong></p>
+            </p>
 
         <br><br><br><br>
         <fieldset>
             <legend>Customer Information</legend>
-            <Form method="post" action="http://webdevbasics.net/scripts/demo.php">
+            <Form method="post" action="http://webdevbasics.net/scripts/demo.php"
+            onsubmit="return submitForm()">
                 <label>First Name:
-                    <input type="text" name="First Name" id="Name"></label>
+                    <input type="text" name="First Name" id="Name" required></label>
                 <br><br>
                 <label>Last Name:
-                    <input type="text" name="Last Name" id="Name">
+                    <input type="text" name="Last Name" id="Name" required>
                 </label>
                 <br><br>
                 <Label>E-Mail:
-                    <input type="text" name="E-Mail" id="E-Mail">
+                    <input type="text" name="E-Mail" id="E-Mail" required>
                 </Label>
                 <br><br>
 
@@ -87,7 +91,19 @@
 </body>
 
 <footer>
-    <small><i>Copyright 2023 &copy; Abukkara Photography</i></small>
+    Abdimalik Abukar
+    <br>
+    1554 Bloor W
+    <br>
+Toronto, Ontario M6P 1A4
+<br>
+647-568-4598
+<br>
+AbukarraPhotography@inquiry.com
+<br>
+    Copyright 2023 &copy; Abukkara Photography
+    
+
 </footer>
 
 </html>
