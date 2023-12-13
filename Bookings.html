@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>Abukarra Photography</title>
+    <link rel="stylesheet" href="HeadnNav.css">
+    <link rel="stylesheet" href="bookings.css">
+    <script src="calendar.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div>
+            <header>
+                <h1><b>Abukarra Photography</b></h1>
+            </header>
+        </div>
+
+        <nav>
+            <div>
+                <a href="AbukarraPhotography.HTML">Home</a>
+                <a href="Portfolio.HTML">Portfolio</a>
+                <a href="About Us.HTML">About Us</a>
+                <a href="Inquiries.HTML">Inquiries</a>
+                <a href="Contact Us.HTML">Contact Us</a>
+            </div>
+        </nav>
+        <br><br><br>
+        <header>
+            <h2>
+                Bookings
+            </h2>
+        </header>
+
+        <p>
+            Here you can book the day and time for your Photoshoot:
+        </p>
+
+        <form action="http://webdevbasics.net/scripts/demo.php" method="post">
+           
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service" required>
+                <option value="Basic_Photshoot">Basic Photoshoot</option>
+                <option value="baby_child_photoshoot">Baby/Child Photoshoot</option>
+                <option value="wedding_photoshoot">Wedding Photoshoot</option>
+                <option value="premium_package_photoshoot">Premium Package Photoshoot</option>
+                
+
+            </select>
+
+            <label for="message">Additional Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit Booking</button>
+        </form>
+    </div>
+</body> 

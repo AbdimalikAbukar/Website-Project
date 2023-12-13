@@ -6,16 +6,26 @@
     border-bottom: 2px solid black;
 }
 
+p{
+    font-weight: bold;
+}
+
 .box{
     border: 2px solid black;
     font-size: large;
     position: relative;
     
 }
-#button{
 
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     float: right;
-    padding-right: 10px;
     position: absolute;
     margin: 5px;
     bottom: 0;
